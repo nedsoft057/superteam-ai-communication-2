@@ -1,0 +1,42 @@
+superteam-ai-communication/
+├── .gitignore
+├── README.md
+├── docker-compose.yml
+├── .env.example
+├── locustfile.py
+│
+├── backend/
+│   ├── main.py
+│   ├── telegram_bot.py
+│   ├── member_search.py
+│   ├── twitter_assistant.py
+│   ├── rag.py
+│   ├── auth.py
+│   ├── database.py
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── DocumentUpload.jsx
+│   │   │   ├── MemberSearch.jsx
+│   │   │   └── Navbar.jsx
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── App.css
+│   ├── package.json
+│   ├── Dockerfile
+│   └── tailwind.config.js
+│
+├── models/
+│   └── (empty - add llama-2-7b.Q4_K_M.gguf later)
+│
+├── docs/
+│   ├── architecture.png
+│   └── demo-screenshot.png
+│
+└── nginx/
+    └── nginx.conf
