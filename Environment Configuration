@@ -1,0 +1,4 @@
+# .env file
+POSTGRES_URL=postgresql://user:pass@db:5432/superteam_db
+LLM_ENDPOINT=http://localhost:8001
+TELEGRAM_TOKEN=your_bot_token
