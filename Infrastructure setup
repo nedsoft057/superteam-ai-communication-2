@@ -1,0 +1,12 @@
+# Clone repo
+git clone https://github.com/your-repo/superteam-ai
+cd superteam-ai
+
+# Build containers
+docker-compose build
+
+# Run migrations
+docker-compose run web alembic upgrade head
+
+# Start system
+docker-compose up -d
