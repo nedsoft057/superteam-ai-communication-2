@@ -1,0 +1,4 @@
+# Tweet Draft Generator (backend/twitter_assistant.py)
+def generate_tweet(prompt: str):
+    draft = local_llm(f"Generate a tweet about {prompt}. Include hashtags.", max_tokens=280)
+    return sanitize_twitter_handles(draft)  # Uses Superteam's followed accounts list
